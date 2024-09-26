@@ -1,0 +1,54 @@
+/*Body*/
+body{
+    margin: 0;
+    background-color: #0f0f0f;
+}
+/*header*/
+header{
+    color: #F2F2F2;
+    height: 60px;
+    margin: 0;
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-family: "Libre Baskerville", serif;/*one font family*/
+}
+/*main*/
+main{
+    display: flex;
+    padding-top: 30px;
+}
+.poster{
+    width: 50%;/*so that we have both the separate boxes have same width*/
+}
+.poster a img{
+    padding: 25% 25%;
+    height: 300px;
+    width: auto;
+}
+.side{
+    width: 50%;
+}
+.song_name h3{
+    font-size: 30px;
+    text-align: center;
+    color: #A1A1A1;
+}
+.lyrics p{
+    text-align: center;
+    color: #F2F2F2;
+    font-size: 20px;
+    font-family: "Parisienne", cursive;
+}
+.lyrics p span{
+    font-optical-sizing: auto;
+    font-family: "Dancing Script", cursive;
+    color: #F2A1A1;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+}
